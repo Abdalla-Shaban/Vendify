@@ -1,0 +1,42 @@
+{
+  "Navbar": {
+    "lang": "Arabic",
+    "about": "About",
+    "faqs": "FAQs",
+    "tutorial": "Tutorial",
+    "register": "Join Now",
+    "login": "Login"
+  },
+  "HeroSection": {
+    "title": "Our mission is to manage your online business easier",
+    "link": "Join Now"
+  },
+  "AboutSection": {
+    "title": "About Vendify",
+    "content": "Vendify is an e-commerce company that works as an integrated system to offer value-added products by matching suppliers and affiliate marketers. In addition, we are working on acquiring affiliate marketing opportunities in Egypt, providing affiliation to find the optimal partnership system (consulting, facilities, support, offers, products, commission)."
+  },
+  "FeatuersSection": {
+    "earn": "Earn",
+    "advertise": "Advertise",
+    "join": "Join"
+  },
+  "BestProductsSection": {
+    "title": "Best Products"
+  },
+  "ProductsSection": {
+    "title": "Products",
+    "link": "Show All",
+    "loadMoreButton": "Load More"
+  },
+  "ProductCard": {
+    "priceCommission": "Price Included Commission",
+    "quantity": "Quantity",
+    "commission": "Commission"
+  },
+  "Footer": {
+    "contact-us": "Contact Us",
+    "privacy-policy": "Privacy Policy",
+    "terms-of-use": "Terms of Use",
+    "refund-cancellation-policy": "Refund and Cancellation Policy"
+  }
+}
