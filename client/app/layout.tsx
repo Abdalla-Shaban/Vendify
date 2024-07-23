@@ -1,16 +1,22 @@
-import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import type { Locale } from "@/config";
 import { Cairo } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages, getLocale } from "next-intl/server";
 import "./globals.css";
-
 const cairo = Cairo({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Vendify",
-  description:
-    "Vendify is a e-commerec platform helps our clients to earn alot of money",
-};
+export async function generateMetadata(Locale: Locale) {
+  const t = await getTranslations({ Locale, namespace: "Metadata" });
+  return {
+    title: {
+      default: `Vendify | ${t("home")}`,
+      template: "%s | Vendify",
+    },
+    description:
+      "Vendify is an e-commerce platform that helps our clients to earn a lot of money",
+  };
+}
 
 export default async function RootLayout({
   children,

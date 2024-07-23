@@ -1,4 +1,12 @@
 {
+  "Metadata": {
+    "home": "Home",
+    "about": "About-us",
+    "faqs": "FAQs",
+    "tutorial": "Tutorials",
+    "register": "Registration",
+    "login": "Login"
+  },
   "Navbar": {
     "lang": "Arabic",
     "about": "About",
