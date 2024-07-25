@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 const Featuers = () => {
   const t = useTranslations("FeatuersSection");
   return (
-    <section className="flex items-center justify-evenly mt-10">
+    <section className="flex items-center justify-center md:justify-evenly gap-10 md:gap-0 flex-wrap mt-10">
       <div className="flex flex-col items-center justify-center gap-3">
         <div className="bg-green-950 rounded-full size-28 flex items-center justify-center">
           <Image
