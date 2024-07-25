@@ -1,7 +1,15 @@
 import LoginForm from "@/components/forms/LoginForm";
+import { Locale } from "@/config";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 
+export async function generateMetadata(Locale: Locale) {
+  const t = await getTranslations({ Locale, namespace: "Metadata" });
+  return {
+    title: t("login"),
+  };
+}
 export default function LoginPage() {
   const t = useTranslations("LoginPage");
   return (
