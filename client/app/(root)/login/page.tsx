@@ -2,7 +2,7 @@ import LoginForm from "@/components/forms/LoginForm";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-const page = () => {
+export default function LoginPage() {
   const t = useTranslations("LoginPage");
   return (
     <div className="w-full max-w-xl flex flex-col justify-center items-center">
@@ -20,6 +20,4 @@ const page = () => {
       <div className="mt-5 text-12 text-center md:text-16">{t("privacy")}</div>
     </div>
   );
-};
-
-export default page;
+}

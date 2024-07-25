@@ -55,7 +55,7 @@ const LoginForm = () => {
         )}
       </fieldset>
       <Link
-        href="/password/rest"
+        href="/password/reset"
         className="px-1.5 text-14 font-bold text-green-950 duration-150 hover:underline hover:opacity-50"
       >
         {t("forgetPassword")}
