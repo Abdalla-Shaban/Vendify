@@ -5,7 +5,7 @@ import BestProducts from "@/components/sections/BestProducts";
 import Products from "@/components/sections/Products";
 export default function Home() {
   return (
-    <div className="flex flex-col container">
+    <div className="flex flex-col">
       <Hero />
       <About />
       <Featuers />

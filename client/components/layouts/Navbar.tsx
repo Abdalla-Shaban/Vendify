@@ -35,7 +35,7 @@ const Navbar = () => {
         ))}
       </div>
       <div className="flex items-center my-3 gap-5">
-        <div className="flex items-center justify-center min-w-10 h-10 border py-1 px-2 rounded-xl bg-green-950 text-white">
+        <div className="md:hidden flex items-center justify-center min-w-10 h-10 border py-1 px-2 rounded-xl bg-green-950 text-white">
           <LocaleSwitcher />
         </div>
         <Dropdown>
