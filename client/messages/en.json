@@ -5,7 +5,8 @@
     "faqs": "FAQs",
     "tutorial": "Tutorials",
     "register": "Registration",
-    "login": "Login"
+    "login": "Login",
+    "resetPassword": "Reset Password"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -117,5 +118,11 @@
     "account": "You Don't have account?",
     "join": "Join Now",
     "privacy": "By login, you agree to the Terms of Use and Privacy Policy"
+  },
+  "ResetPasswordPage": {
+    "title": "Reset Password",
+    "subTitle": "Enter Your Email to reset password",
+    "email": "Email or Phone Number",
+    "reset": "Reset"
   }
 }
