@@ -1,32 +1,25 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher";
+import { NavbarLinks } from "@/constants";
 
 const Navbar = () => {
   const t = useTranslations("Navbar");
-
   return (
-    <nav className="flex items-center justify-between py-5 px-2 border-b-2 mb-8">
+    <nav className="flex items-center justify-between p-3 border-b-2">
       <h1 className="text-24 font-semibold">Vendify</h1>
-      <ul className="flex items-center gap-5">
-        <li>
+      <ul className="flex items-center gap-5 text-16">
+        <li className="duration-300 hover:text-green-950 hover:font-bold">
           <LocaleSwitcher />
         </li>
-        <li>
-          <Link href={""}>{t("about")}</Link>
-        </li>
-        <li>
-          <Link href={""}>{t("faqs")}</Link>
-        </li>
-        <li>
-          <Link href={""}>{t("tutorial")}</Link>
-        </li>
-        <li>
-          <Link href={""}>{t("register")}</Link>
-        </li>
-        <li>
-          <Link href={""}>{t("login")}</Link>
-        </li>
+        {NavbarLinks.map(({ title, href }) => (
+          <li
+            key={href}
+            className="duration-300 hover:text-green-950 hover:font-bold"
+          >
+            <Link href={href}>{t(title)}</Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

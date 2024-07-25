@@ -818,3 +818,25 @@ export const GovernoratesAndCitiesAR = [
     ],
   },
 ];
+export const NavbarLinks = [
+  {
+    title: "about",
+    href: "/about-us",
+  },
+  {
+    title: "faqs",
+    href: "/faqs",
+  },
+  {
+    title: "tutorial",
+    href: "/tutorial",
+  },
+  {
+    title: "register",
+    href: "/register/affilite",
+  },
+  {
+    title: "login",
+    href: "/login",
+  },
+];
