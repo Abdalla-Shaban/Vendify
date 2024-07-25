@@ -11,7 +11,7 @@ export async function generateMetadata(Locale: Locale) {
 export default function TutorialPage() {
   const t = useTranslations("TutorialsPage");
   return (
-    <div className="flex items-center justify-center min-h-[80vh]">
+    <div className="flex items-center justify-center">
       <h1 className="text-32 font-extrabold">{t("title")}</h1>
     </div>
   );

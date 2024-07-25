@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <main className="relative container flex flex-col min-h-screen">
       <UpButton />
       <Navbar />
-      <div className="flex-1">{children}</div>
+      <div className="flex justify-center flex-1">{children}</div>
       <Footer />
     </main>
   );

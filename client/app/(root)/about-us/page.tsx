@@ -14,7 +14,7 @@ export async function generateMetadata(Locale: Locale) {
 export default function AboutPage() {
   const t = useTranslations("AboutPage");
   return (
-    <div className="flex flex-col min-h-[80vh]">
+    <div className="flex flex-col gap-10 mt-5">
       <div className="flex flex-col gap-3 mb-10">
         <h1 className="text-32 font-bold">{t("title")}</h1>
         <p className="text-20 md:w-4/5">{t("content")}</p>
