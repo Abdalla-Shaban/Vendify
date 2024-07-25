@@ -34,25 +34,30 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <Dropdown>
-        <DropdownTrigger>
-          <Button className="bg-green-950 text-white my-3 md:hidden" isIconOnly>
-            <Menu />
-          </Button>
-        </DropdownTrigger>
-        <DropdownMenu aria-label="menu links" items={NavbarLinks}>
-          {({ title, href }) => (
-            <DropdownItem
-              key={href}
-              textValue={title}
-              href={href}
-              className="p-4"
-            >
-              {t(title)}
-            </DropdownItem>
-          )}
-        </DropdownMenu>
-      </Dropdown>
+      <div className="flex items-center my-3 gap-5">
+        <div className="flex items-center justify-center min-w-10 h-10 border py-1 px-2 rounded-xl bg-green-950 text-white">
+          <LocaleSwitcher />
+        </div>
+        <Dropdown>
+          <DropdownTrigger>
+            <Button className="bg-green-950 text-white md:hidden" isIconOnly>
+              <Menu />
+            </Button>
+          </DropdownTrigger>
+          <DropdownMenu aria-label="menu links" items={NavbarLinks}>
+            {({ title, href }) => (
+              <DropdownItem
+                key={href}
+                textValue={title}
+                href={href}
+                className="p-4"
+              >
+                {t(title)}
+              </DropdownItem>
+            )}
+          </DropdownMenu>
+        </Dropdown>
+      </div>
     </nav>
   );
 };
