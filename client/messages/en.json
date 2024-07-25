@@ -6,7 +6,8 @@
     "tutorial": "Tutorials",
     "register": "Registration",
     "login": "Login",
-    "resetPassword": "Reset Password"
+    "resetPassword": "Reset Password",
+    "contactUs": "Contact Us"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -124,5 +125,13 @@
     "subTitle": "Enter Your Email to reset password",
     "email": "Email or Phone Number",
     "reset": "Reset"
+  },
+  "ContactUsPage": {
+    "title": "Leave Your Message.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message"
   }
 }
