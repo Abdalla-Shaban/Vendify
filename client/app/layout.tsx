@@ -1,9 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/config";
 import { Cairo } from "next/font/google";
-import { NextIntlClientProvider, useTranslations } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getLocale } from "next-intl/server";
 import "./globals.css";
+import { Providers } from "@/Providers";
 const cairo = Cairo({ subsets: ["latin"] });
 
 export async function generateMetadata(Locale: Locale) {
@@ -30,7 +31,7 @@ export default async function RootLayout({
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body className={cairo.className} suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Providers>{children}</Providers>
         </NextIntlClientProvider>
       </body>
     </html>
