@@ -57,5 +57,55 @@
   },
   "TutorialsPage": {
     "title": "لا يوجد فيديوهات تعليمية حتى الان."
+  },
+  "RegisterForm": {
+    "title": {
+      "title": "تسجيل حساب مسوق بالعمولة مع Vendify"
+    },
+    "selectTitle": {
+      "title": "اللقب"
+    },
+    "firstName": {
+      "title": "الأسم الأول"
+    },
+    "lastName": {
+      "title": "اسم العائلة"
+    },
+    "email": {
+      "title": "البريد الالكتروني"
+    },
+    "phone": {
+      "title": "التليفون"
+    },
+    "dateOfBirth": {
+      "title": "تاريخ الميلاد"
+    },
+    "governorate": {
+      "title": "المحافظة"
+    },
+    "city": {
+      "title": "المدينه"
+    },
+    "address": {
+      "title": "العنوان"
+    },
+    "password": {
+      "title": "كلمة المرور"
+    },
+    "confirmPassword": {
+      "title": "تاكيد كلمة المرور"
+    },
+    "submitButton": {
+      "title": "تسجيل"
+    },
+    "basicInfo": {
+      "title": "معلومات اساسية"
+    },
+    "businessSetup": {
+      "title": "إعداد الأعمال"
+    },
+    "verify": {
+      "title": "توثيق"
+    }
   }
 }

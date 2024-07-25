@@ -57,5 +57,55 @@
   },
   "TutorialsPage": {
     "title": "There is no Tutorials yet."
+  },
+  "RegisterForm": {
+    "title": {
+      "title": "Registration With Vendify Affiliate"
+    },
+    "selectTitle": {
+      "title": "Title"
+    },
+    "firstName": {
+      "title": "First Name"
+    },
+    "lastName": {
+      "title": "Last Name"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "dateOfBirth": {
+      "title": "Date of Birth"
+    },
+    "governorate": {
+      "title": "Governorate"
+    },
+    "city": {
+      "title": "City"
+    },
+    "address": {
+      "title": "Address"
+    },
+    "password": {
+      "title": "Password"
+    },
+    "confirmPassword": {
+      "title": "Confirm Password"
+    },
+    "submitButton": {
+      "title": "Proceed"
+    },
+    "basicInfo": {
+      "title": "Basic Information"
+    },
+    "businessSetup": {
+      "title": "Business Setup"
+    },
+    "verify": {
+      "title": "Verification"
+    }
   }
 }
