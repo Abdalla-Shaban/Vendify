@@ -107,5 +107,15 @@
     "verify": {
       "title": "Verification"
     }
+  },
+  "LoginPage": {
+    "title": "Login",
+    "email": "Email or Phone Number",
+    "password": "Password",
+    "forgetPassword": "Forget Password",
+    "login": "Login",
+    "account": "You Don't have account?",
+    "join": "Join Now",
+    "privacy": "By login, you agree to the Terms of Use and Privacy Policy"
   }
 }
