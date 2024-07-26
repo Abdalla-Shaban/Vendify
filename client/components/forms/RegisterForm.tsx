@@ -6,7 +6,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { Input } from "@nextui-org/input";
 import { Select, SelectItem } from "@nextui-org/select";
 import { Button, DatePicker } from "@nextui-org/react";
-import { Autocomplete, AutocompleteItem } from "@nextui-org/react";
 import {
   GovernoratesAndCitiesAR,
   GovernoratesAndCitiesEN,
