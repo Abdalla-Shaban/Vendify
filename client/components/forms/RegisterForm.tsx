@@ -21,6 +21,8 @@ const formShcema = z
     firstName: z.string().min(1, { message: "First Name is Requierd" }),
     lastName: z.string().min(1, { message: "Last Name is Requierd" }),
     email: z.string().min(1, { message: "Email is Requierd" }).email(),
+    governorate: z.string().min(1, { message: "Governorate is Requierd" }),
+    city: z.string().min(1, { message: "City is Requierd" }),
     phone: z.string().min(1, { message: "Phone is Requierd" }),
     address: z.string().min(1, { message: "Address is Requierd" }),
     password: z.string().min(1, { message: "Password is Requierd" }),
@@ -44,17 +46,9 @@ const RegisterForm = () => {
   const locale = useLocale();
   const t = useTranslations("RegisterForm");
   const [formData, setFormData] = useState({
-    title: "",
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
     dateOfBirth: "",
     governorate: "",
     city: "",
-    address: "",
-    password: "",
-    confirmPassword: "",
   });
   const filterdCities =
     locale === "ar"
@@ -77,11 +71,11 @@ const RegisterForm = () => {
       })}
       className="flex flex-col gap-3"
     >
-      <div className="flex items-center gap-3">
-        <div className="min-w-24 flex flex-col">
+      <div className="flex flex-col md:flex-row items-center gap-3">
+        <div className="w-full md:max-w-24 flex flex-col">
           <Select
             variant="bordered"
-            className="max-w-24"
+            className="md:max-w-24"
             label={
               <>
                 {t("selectTitle.title")} <RequiredStar />
@@ -90,7 +84,7 @@ const RegisterForm = () => {
             {...register("title")}
           >
             {titles.map(({ key, label }) => (
-              <SelectItem value={formData.title} key={key}>
+              <SelectItem value={label} key={key}>
                 {label}
               </SelectItem>
             ))}
@@ -130,7 +124,7 @@ const RegisterForm = () => {
           )}
         </div>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-col md:flex-row items-center gap-3">
         <div className="w-full flex flex-col">
           <Input
             variant="bordered"
@@ -180,41 +174,51 @@ const RegisterForm = () => {
           }}
         />
       </div>
-      <div className="w-full flex items-center gap-3">
-        <Autocomplete
-          defaultItems={[]}
+      <div className="w-full flex flex-col md:flex-row items-center gap-3">
+        <Select
           variant="bordered"
           label={
             <>
               {t("governorate.title")} <RequiredStar />
             </>
           }
-          onSelectionChange={(e) =>
-            setFormData({ ...formData, governorate: `${e}` })
-          }
+          {...register("governorate", {
+            onChange(e) {
+              setFormData({ ...formData, governorate: `${e.target.value}` });
+            },
+          })}
         >
           {locale === "en"
             ? GovernoratesAndCitiesEN.map(({ key, name }) => (
-                <AutocompleteItem key={key}>{name}</AutocompleteItem>
+                <SelectItem value={formData.governorate} key={key}>
+                  {name}
+                </SelectItem>
               ))
             : GovernoratesAndCitiesAR.map(({ key, name }) => (
-                <AutocompleteItem key={key}>{name}</AutocompleteItem>
+                <SelectItem value={formData.governorate} key={key}>
+                  {name}
+                </SelectItem>
               ))}
-        </Autocomplete>
-        <Autocomplete
-          defaultItems={[]}
+        </Select>
+        <Select
           variant="bordered"
-          onSelectionChange={(e) => setFormData({ ...formData, city: `${e}` })}
           label={
             <>
               {t("city.title")} <RequiredStar />
             </>
           }
+          {...register("city", {
+            onChange(e) {
+              setFormData({ ...formData, city: `${e.target.value}` });
+            },
+          })}
         >
           {filterdCities[0]?.map((city) => (
-            <AutocompleteItem key={city}>{city}</AutocompleteItem>
+            <SelectItem value={formData.city} key={city}>
+              {city}
+            </SelectItem>
           ))}
-        </Autocomplete>
+        </Select>
       </div>
       <div className="flex flex-col w-full">
         <Input
@@ -231,7 +235,7 @@ const RegisterForm = () => {
           <ErrorMessage message={errors.address?.message} />
         )}
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-col md:flex-row items-center gap-3">
         <div className="flex flex-col w-full">
           <Input
             variant="bordered"
@@ -266,7 +270,7 @@ const RegisterForm = () => {
       <Button
         variant="bordered"
         type="submit"
-        className="min-w-72 mx-auto bg-green-950 text-white"
+        className="w-full md:min-w-72 mx-auto bg-green-950 text-white"
       >
         {t("submitButton.title")}
       </Button>

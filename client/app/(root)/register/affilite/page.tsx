@@ -14,14 +14,16 @@ export default function AffiliteRegisterPage() {
   const t = useTranslations("RegisterForm");
   const keys = ["basicInfo", "businessSetup", "verify"];
   return (
-    <div className="flex flex-1 gap-10 bg-slate-50/50">
-      <div className="basis-3/5 self-center px-3">
-        <h1 className="text-32 font-bold mb-5">{t("title.title")}</h1>
-        <div className="bg-white p-5 rounded drop-shadow-xl shadow-xl">
+    <div className="overflow-hidden flex flex-col md:flex-row flex-1 gap-10 bg-slate-50/50">
+      <div className="order-2 md:order-1 flex flex-col md:basis-3/5 md:self-center md:px-3">
+        <h1 className="text-28 md:text-32 font-bold mb-3 md:mb-5">
+          {t("title.title")}
+        </h1>
+        <div className="bg-white p-2 md:p-5 rounded drop-shadow-xl shadow-xl">
           <RegisterForm />
         </div>
       </div>
-      <div className="relative flex flex-col justify-evenly items-center flex-1 overflow-hidden">
+      <div className="order-1 md:order-2 relative flex flex-col justify-evenly items-center  min-h-[70vh] md:h-auto flex-1 overflow-hidden">
         <div className="absolute size-full left-0 top-0 bg-cover bg-center bg-[url('../public/images/bg-deal.jpg')]" />
         <div className="absolute size-full left-0 top-0 bg-blue-600/15" />
         {keys.map((key, i) => (
