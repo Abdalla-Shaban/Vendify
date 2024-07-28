@@ -149,5 +149,15 @@
   "NewOrderSection": {
     "title": "يمكنك اضافة اوردر جديد من هنا",
     "addOrder": "أضف اوردر جديد"
+  },
+  "Sidebar": {
+    "dashboard": "لوحة التحكم",
+    "orders": "الأوردرات",
+    "insights": "الاحصائيات",
+    "requestConvertCommission": "طلب تحويل العمولة",
+    "payment": "الحسابات",
+    "profile": "الصفحة الشخصية",
+    "createModerator": "اضافة مودريتور",
+    "favourites": "المفضلة"
   }
 }

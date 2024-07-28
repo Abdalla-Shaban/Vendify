@@ -1,3 +1,14 @@
+import {
+  AreaChart,
+  BringToFront,
+  CreditCard,
+  HandCoins,
+  Heart,
+  LayoutDashboard,
+  User,
+  UserRoundPlus,
+} from "lucide-react";
+
 export const titles = [
   { key: "mr", label: "Mr" },
   { key: "mrs", label: "Mrs" },
@@ -838,5 +849,48 @@ export const NavbarLinks = [
   {
     title: "login",
     href: "/login",
+  },
+];
+
+export const SidebarLinks = [
+  {
+    title: "dashboard",
+    href: "/affilite/dashboard",
+    Icon: LayoutDashboard,
+  },
+  {
+    title: "orders",
+    href: "/affilite/orders",
+    Icon: BringToFront,
+  },
+  {
+    title: "insights",
+    href: "/affilite/insights",
+    Icon: AreaChart,
+  },
+  {
+    title: "requestConvertCommission",
+    href: "/affilite/request-convert-commission",
+    Icon: HandCoins,
+  },
+  {
+    title: "payment",
+    href: "/affilite/payment",
+    Icon: CreditCard,
+  },
+  {
+    title: "profile",
+    href: "/affilite/profile",
+    Icon: User,
+  },
+  {
+    title: "createModerator",
+    href: "/affilite/create/moderator",
+    Icon: UserRoundPlus,
+  },
+  {
+    title: "favourites",
+    href: "/affilite/favourites",
+    Icon: Heart,
   },
 ];
