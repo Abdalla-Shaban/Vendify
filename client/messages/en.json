@@ -133,5 +133,17 @@
     "subject": "Subject",
     "message": "Your Message",
     "send": "Send Message"
+  },
+  "StatisticsSection": {
+    "totalOrders": "Total Orders",
+    "returnedOrders": "Returned Orders",
+    "finishedOrders": "Finished Orders",
+    "commissionPayable": "Commission Payable",
+    "commissionPaid": "Commission Paid",
+    "piecesDelivered": "Pieces Delivered",
+    "totalNumberOfRegisterdPieces": " Total Number of Registerd Pieces",
+    "commissionUnderCollection": "Commission Under Collection and Review",
+    "printedAndShippedOrdersCommission": "Printed and Shipped Orders Commission",
+    "allStatistics": "All Statistics"
   }
 }

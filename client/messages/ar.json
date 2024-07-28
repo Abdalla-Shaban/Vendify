@@ -133,5 +133,17 @@
     "subject": "الموضوع",
     "message": "رسالتك",
     "send": "أرسل"
+  },
+  "StatisticsSection": {
+    "totalOrders": "اجمالى الأوردرات",
+    "returnedOrders": "الأوردرات الملغية",
+    "finishedOrders": "الأوردرات المستلمة",
+    "commissionPayable": "العمولة القابلة للدفع",
+    "commissionPaid": "العمولة المدفوعة",
+    "piecesDelivered": "قطع تم تسليمها",
+    "totalNumberOfRegisterdPieces": "اجمالى القطع المسجلة",
+    "commissionUnderCollection": "عمولة تحت التحصيل والمراجعة",
+    "printedAndShippedOrdersCommission": "عمولة الاوردرات المطبوعة والمشحونة",
+    "allStatistics": "عرض كل الاحصائيات"
   }
 }
