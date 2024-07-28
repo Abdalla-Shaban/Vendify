@@ -145,5 +145,9 @@
     "commissionUnderCollection": "عمولة تحت التحصيل والمراجعة",
     "printedAndShippedOrdersCommission": "عمولة الاوردرات المطبوعة والمشحونة",
     "allStatistics": "عرض كل الاحصائيات"
+  },
+  "NewOrderSection": {
+    "title": "يمكنك اضافة اوردر جديد من هنا",
+    "addOrder": "أضف اوردر جديد"
   }
 }

@@ -4,6 +4,7 @@ import Featuers from "@/components/sections/Featuers";
 import BestProducts from "@/components/sections/BestProducts";
 import Products from "@/components/sections/Products";
 import Statistics from "@/components/sections/Statistics";
+import NewOrder from "@/components/sections/NewOrder";
 export default function Home() {
   const isAuth = true;
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       {isAuth ? (
         <>
           <Statistics />
+          <NewOrder />
         </>
       ) : (
         <>

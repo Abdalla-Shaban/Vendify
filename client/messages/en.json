@@ -145,5 +145,9 @@
     "commissionUnderCollection": "Commission Under Collection and Review",
     "printedAndShippedOrdersCommission": "Printed and Shipped Orders Commission",
     "allStatistics": "All Statistics"
+  },
+  "NewOrderSection": {
+    "title": "You Can Make New Order From Here",
+    "addOrder": "Add New Order"
   }
 }
