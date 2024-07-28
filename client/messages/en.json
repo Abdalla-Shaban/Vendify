@@ -7,7 +7,8 @@
     "register": "Registration",
     "login": "Login",
     "resetPassword": "Reset Password",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "dashboard": "Dashboard"
   },
   "Navbar": {
     "lang": "Arabic",

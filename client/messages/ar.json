@@ -7,7 +7,8 @@
     "register": "تسجيل حساب جديد",
     "login": "تسجيل الدخول",
     "resetPassword": "إعادة تعيين كلمة المرور",
-    "contactUs": "اتصل بنا"
+    "contactUs": "اتصل بنا",
+    "dashboard": "لوحة التحكم"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
