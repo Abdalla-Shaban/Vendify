@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col">
       {isAuth ? (
         <>
-          <Statistics />
+          <Statistics showLink />
           <NewOrder />
         </>
       ) : (

@@ -14,7 +14,11 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import StatisticCard from "../StatisticCard";
 
-const Statistics = () => {
+type TStatistics = {
+  showLink: boolean;
+};
+
+const Statistics = ({ showLink }: TStatistics) => {
   const StatisticsCardContent = [
     {
       title: "totalOrders",
@@ -65,17 +69,19 @@ const Statistics = () => {
   const t = useTranslations("StatisticsSection");
   return (
     <section className="flex flex-col gap-5 mt-8">
-      <div className="grid md:grid-cols-3 items-center justify-center  gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 items-center justify-center  gap-5">
         {StatisticsCardContent.map((cardContent) => (
           <StatisticCard key={cardContent.title} {...cardContent} />
         ))}
       </div>
-      <Link
-        className="text-white px-3 py-2 rounded-full text-14 bg-green-950 mx-auto"
-        href="/dashboard/affilites"
-      >
-        {t("allStatistics")}
-      </Link>
+      {showLink && (
+        <Link
+          className="text-white px-3 py-2 rounded-full text-14 bg-green-950 mx-auto"
+          href="/dashboard/affilites"
+        >
+          {t("allStatistics")}
+        </Link>
+      )}
     </section>
   );
 };
