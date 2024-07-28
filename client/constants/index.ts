@@ -855,42 +855,42 @@ export const NavbarLinks = [
 export const SidebarLinks = [
   {
     title: "dashboard",
-    href: "/affilite/dashboard",
+    href: "/affiliate/dashboard",
     Icon: LayoutDashboard,
   },
   {
     title: "orders",
-    href: "/affilite/orders",
+    href: "/affiliate/orders",
     Icon: BringToFront,
   },
   {
     title: "insights",
-    href: "/affilite/insights",
+    href: "/affiliate/insights",
     Icon: AreaChart,
   },
   {
     title: "requestConvertCommission",
-    href: "/affilite/request-convert-commission",
+    href: "/affiliate/request-convert-commission",
     Icon: HandCoins,
   },
   {
     title: "payment",
-    href: "/affilite/payment",
+    href: "/affiliate/payment",
     Icon: CreditCard,
   },
   {
     title: "profile",
-    href: "/affilite/profile",
+    href: "/affiliate/profile",
     Icon: User,
   },
   {
     title: "createModerator",
-    href: "/affilite/create/moderator",
+    href: "/affiliate/create/moderator",
     Icon: UserRoundPlus,
   },
   {
     title: "favourites",
-    href: "/affilite/favourites",
+    href: "/affiliate/favourites",
     Icon: Heart,
   },
 ];
