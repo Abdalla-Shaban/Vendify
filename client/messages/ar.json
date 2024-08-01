@@ -10,7 +10,8 @@
     "contactUs": "اتصل بنا",
     "dashboard": "لوحة التحكم",
     "orders": "الأوردرات",
-    "reports": "التقارير"
+    "reports": "التقارير",
+    "convertCommission": "طلب تحويل عمولة"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -209,5 +210,8 @@
     "success": "ناجح",
     "refund": "مرتجع",
     "LE": "جنية"
+  },
+  "ConvertCommissionPage": {
+    "title": "لا يوجد عمولات لتحويلها"
   }
 }

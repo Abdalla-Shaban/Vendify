@@ -10,7 +10,8 @@
     "contactUs": "Contact Us",
     "dashboard": "Dashboard",
     "orders": "Orders",
-    "reports": "Reports"
+    "reports": "Reports",
+    "convertCommission": "Request Convert Commission"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -209,5 +210,8 @@
     "success": "Success",
     "refund": "Refund",
     "LE": "LE"
+  },
+  "ConvertCommissionPage": {
+    "title": "No Commissions to Convert"
   }
 }
