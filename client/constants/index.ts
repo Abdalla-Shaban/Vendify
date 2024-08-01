@@ -6,6 +6,7 @@ import {
   HandCoins,
   Heart,
   LayoutDashboard,
+  Scroll,
   User,
   UserRoundPlus,
 } from "lucide-react";
@@ -868,6 +869,11 @@ export const SidebarLinks = [
     title: "insights",
     href: "/affiliate/insights",
     Icon: AreaChart,
+  },
+  {
+    title: "reports",
+    href: "/affiliate/reports",
+    Icon: Scroll,
   },
   {
     title: "requestConvertCommission",
