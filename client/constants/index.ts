@@ -894,3 +894,5 @@ export const SidebarLinks = [
     Icon: Heart,
   },
 ];
+
+export const OrdersListStatus = ["pending", "success", "refund"];

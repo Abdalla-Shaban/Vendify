@@ -8,7 +8,8 @@
     "login": "تسجيل الدخول",
     "resetPassword": "إعادة تعيين كلمة المرور",
     "contactUs": "اتصل بنا",
-    "dashboard": "لوحة التحكم"
+    "dashboard": "لوحة التحكم",
+    "orders": "الأوردرات"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -160,5 +161,31 @@
     "profile": "الصفحة الشخصية",
     "createModerator": "اضافة مودريتور",
     "favourites": "المفضلة"
+  },
+  "OrdersPage": {
+    "searchPlaceHolder": "ابحث..",
+    "viewAllLink": "عرض الكل",
+    "startDate": "تاريخ الانشاء",
+    "endDate": "تاريخ الانتهاء",
+    "orderInfo": "معلومات الأوردر",
+    "date": "التاريخ",
+    "totalPrice": "الإجمالي",
+    "commission": "العمولة",
+    "status": "الحالة",
+    "pending": "معلق",
+    "success": "ناجح",
+    "refund": "مرتجع",
+    "transferDateForShipping": "تاريخ التحويل للشحن",
+    "reason": "السبب",
+    "confirmationDate": "تاريخ التأكيد",
+    "message": "رسالة",
+    "addOrderLink": "أضف اوردر جديد",
+    "name": "الأسم",
+    "phone": "التليفون",
+    "governorate": "المحافظة",
+    "city": "المدينة",
+    "address": "العنوان",
+    "noReason": "لا يوجد سبب",
+    "noMessage": "لا توجد رسالة"
   }
 }

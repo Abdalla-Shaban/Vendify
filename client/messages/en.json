@@ -8,7 +8,8 @@
     "login": "Login",
     "resetPassword": "Reset Password",
     "contactUs": "Contact Us",
-    "dashboard": "Dashboard"
+    "dashboard": "Dashboard",
+    "orders": "Orders"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -160,5 +161,31 @@
     "profile": "Profile",
     "createModerator": "Create Moderator",
     "favourites": "Favourites"
+  },
+  "OrdersPage": {
+    "searchPlaceHolder": "Search..",
+    "viewAllLink": "View All",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "orderInfo": "Order Information",
+    "date": "Date",
+    "totalPrice": "Total Price",
+    "commission": "Commission",
+    "status": "Status",
+    "pending": "Pending",
+    "success": "Success",
+    "refund": "Refund",
+    "transferDateForShipping": "Transfer Date for Shipping",
+    "reason": "Reason",
+    "confirmationDate": "Confirmation Date",
+    "message": "Messagee",
+    "addOrderLink": "Add New Order",
+    "name": "Name",
+    "phone": "Phone",
+    "governorate": "Governorate",
+    "city": "City",
+    "address": "Address",
+    "noReason": "No Reason",
+    "noMessage": "No Message"
   }
 }
