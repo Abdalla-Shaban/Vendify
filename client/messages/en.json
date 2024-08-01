@@ -9,7 +9,8 @@
     "resetPassword": "Reset Password",
     "contactUs": "Contact Us",
     "dashboard": "Dashboard",
-    "orders": "Orders"
+    "orders": "Orders",
+    "reports": "Reports"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -187,5 +188,25 @@
     "address": "Address",
     "noReason": "No Reason",
     "noMessage": "No Message"
+  },
+  "ReportsPage": {
+    "earnings": "Earnings",
+    "orders": "Orders",
+    "units": "Units",
+    "orderCode": "Order Code",
+    "orderImg": "Order Image",
+    "moderatorName": "Moderator Name",
+    "notes": "Notes",
+    "clientName": "Client Name",
+    "governorate": "Governorate",
+    "status": "Status",
+    "price": "Price",
+    "quantity": "Quantity",
+    "totalPrice": "Total Price",
+    "commission": "Commission",
+    "pending": "Pending",
+    "success": "Success",
+    "refund": "Refund",
+    "LE": "LE"
   }
 }

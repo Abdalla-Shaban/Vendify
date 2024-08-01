@@ -1,3 +1,4 @@
+import { ChipProps } from "@nextui-org/react";
 import {
   AreaChart,
   BringToFront,
@@ -896,3 +897,58 @@ export const SidebarLinks = [
 ];
 
 export const OrdersListStatus = ["pending", "success", "refund"];
+
+export const statusColorMap: Record<string, ChipProps["color"]> = {
+  success: "success",
+  refund: "danger",
+  pending: "warning",
+};
+
+export const Orders = [
+  {
+    id: 1,
+    imgUrl:
+      "https://i.pinimg.com/236x/0d/ea/0a/0dea0aca61c2e282d99b166905dd7503.jpg",
+    productName: "T-shirt",
+    productAuthor: "Zara",
+    fullName: "Abdullah Shaban",
+    phoneNumber: "010000000",
+    extraPhoneNumber: "010000000",
+    governorate: "Giza",
+    city: "hawmdia",
+    address: "abu lasheen",
+    moderatorName: "Bouda",
+    notes: "مستعجل",
+    date: "16/8/2024",
+    price: "600",
+    status: "success",
+    transferDateForShipping: "31/9/2024",
+    confirmationDate: "24/8/2024",
+    reason: "",
+    commission: 40,
+    quantity: "2",
+  },
+  {
+    id: 2,
+    imgUrl:
+      "https://i.pinimg.com/236x/e2/3f/2f/e23f2ff08de55cd902dd3508ce2b7d77.jpg",
+    productName: "Short",
+    productAuthor: "Defacto",
+    fullName: "Ebrahim Farghaly",
+    phoneNumber: "010000000",
+    extraPhoneNumber: "010000000",
+    governorate: "Cairo",
+    city: "Helwan",
+    address: "metro",
+    moderatorName: "Amany",
+    notes: "",
+    date: "31/9/2024",
+    price: "600",
+    status: "pending",
+    transferDateForShipping: "7/31/2024",
+    confirmationDate: "08/03/2024",
+    reason: "",
+    commission: 50,
+    quantity: "3",
+  },
+];

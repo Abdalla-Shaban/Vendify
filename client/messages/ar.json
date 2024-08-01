@@ -9,7 +9,8 @@
     "resetPassword": "إعادة تعيين كلمة المرور",
     "contactUs": "اتصل بنا",
     "dashboard": "لوحة التحكم",
-    "orders": "الأوردرات"
+    "orders": "الأوردرات",
+    "reports": "التقارير"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -187,5 +188,25 @@
     "address": "العنوان",
     "noReason": "لا يوجد سبب",
     "noMessage": "لا توجد رسالة"
+  },
+  "ReportsPage": {
+    "earnings": "الأرباح",
+    "orders": "الأوردرات",
+    "units": "وحدات",
+    "orderCode": "كود الأوردر",
+    "orderImg": "صورة الأوردر",
+    "moderatorName": "اسم المودريتور",
+    "notes": "ملاحظات",
+    "clientName": "اسم العميل",
+    "governorate": "المحافظة",
+    "status": "الحالة",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "totalPrice": "الإجمالي",
+    "commission": "العمولة",
+    "pending": "معلق",
+    "success": "ناجح",
+    "refund": "مرتجع",
+    "LE": "جنية"
   }
 }
