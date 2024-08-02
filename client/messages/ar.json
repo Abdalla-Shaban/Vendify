@@ -11,7 +11,8 @@
     "dashboard": "لوحة التحكم",
     "orders": "الأوردرات",
     "reports": "التقارير",
-    "convertCommission": "طلب تحويل عمولة"
+    "convertCommission": "طلب تحويل عمولة",
+    "payments": "الحسابات"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -213,5 +214,22 @@
   },
   "ConvertCommissionPage": {
     "title": "لا يوجد عمولات لتحويلها"
+  },
+  "PaymentsPage": {
+    "paymentMethode": "طريقة الدفع",
+    "vodafoneCash": "فودافون كاش",
+    "phoneInputLabel": "التليفون",
+    "saveButton": "حفظ",
+    "bankTransfer": "تحويل بنكي",
+    "fullNameInputLabel": "الأسم بالكامل",
+    "bankInputLabel": "اسم البنك",
+    "accountNumberInputLabel": "رقم الحساب",
+    "branchInputLabel": "فرع",
+    "postalTransfer": "تحويل بريدى",
+    "paymentTransfer": "التحويلات",
+    "paymentTranferTitle": "العمولة المستحقة",
+    "LE": "جنية",
+    "commissionsPayable": "عمولات مستحقة الدفع",
+    "commissionsPayableTitle": "العمولة المستحقة"
   }
 }

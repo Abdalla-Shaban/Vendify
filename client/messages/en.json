@@ -11,7 +11,8 @@
     "dashboard": "Dashboard",
     "orders": "Orders",
     "reports": "Reports",
-    "convertCommission": "Request Convert Commission"
+    "convertCommission": "Request Convert Commission",
+    "payments": "Payments"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -213,5 +214,22 @@
   },
   "ConvertCommissionPage": {
     "title": "No Commissions to Convert"
+  },
+  "PaymentsPage": {
+    "paymentMethode": "Payment Methode",
+    "vodafoneCash": "Vodafone Cash",
+    "phoneInputLabel": "Phone",
+    "saveButton": "Save",
+    "bankTransfer": "Bank Transfer",
+    "fullNameInputLabel": "Full Name",
+    "bankInputLabel": "Bank",
+    "accountNumberInputLabel": "Account Number",
+    "branchInputLabel": "Branch",
+    "postalTransfer": "Postal Transfer",
+    "paymentTransfer": "paymentTransfer",
+    "paymentTranferTitle": "Accrued Commission",
+    "LE": "LE",
+    "commissionsPayable": "Commission Payable",
+    "commissionsPayableTitle": "Commission"
   }
 }
