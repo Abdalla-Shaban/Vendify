@@ -13,7 +13,8 @@
     "reports": "Reports",
     "convertCommission": "Request Convert Commission",
     "payments": "Payments",
-    "profile": "Profile"
+    "profile": "Profile",
+    "favourites": "Favourites"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -263,5 +264,9 @@
     "facebookPageInputPlaceHolder": "url",
     "saveButton": "Save",
     "changePasswordButton": "Change Password"
+  },
+  "FavouritesPage": {
+    "title": "Favourites",
+    "emptyContent": "Not Found Favourites Data"
   }
 }

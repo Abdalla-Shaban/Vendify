@@ -13,7 +13,8 @@
     "reports": "التقارير",
     "convertCommission": "طلب تحويل عمولة",
     "payments": "الحسابات",
-    "profile": "الصفحة الشخصية"
+    "profile": "الصفحة الشخصية",
+    "favourites": "المفضلة"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -263,5 +264,9 @@
     "facebookPageInputPlaceHolder": "url",
     "saveButton": "حفظ",
     "changePasswordButton": "تغير كلمة المرور"
+  },
+  "FavouritesPage": {
+    "title": "المفضلة",
+    "emptyContent": "لا يوجد بيانات لعرضها"
   }
 }
