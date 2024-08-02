@@ -12,7 +12,8 @@
     "orders": "الأوردرات",
     "reports": "التقارير",
     "convertCommission": "طلب تحويل عمولة",
-    "payments": "الحسابات"
+    "payments": "الحسابات",
+    "profile": "الصفحة الشخصية"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -231,5 +232,36 @@
     "LE": "جنية",
     "commissionsPayable": "عمولات مستحقة الدفع",
     "commissionsPayableTitle": "العمولة المستحقة"
+  },
+  "ProfilePage": {
+    "selectTitleLabel": "اللقب",
+    "selectTitlePlaceHolder": "Mr",
+    "firstNameInputLabel": "الأسم الأول",
+    "firstNameInputPlaceHolder": "الأسم الأول",
+    "lastNameInputLabel": "اسم العائلة",
+    "lastNameInputPlaceHolder": "اسم العائلة",
+    "emailInputLabel": "البريد الإلكتروني",
+    "emailInputPlaceHolder": "البريد الإلكتروني",
+    "dateOfBirthLabel": "تاريخ الميلاد",
+    "selectSitesPromoteLabel": "كيف ستروج منتجات Vendify ؟",
+    "selectSitesPromotePlaceHolder": "facebook",
+    "websiteUrlInputLabel": "الموقع الشخصي",
+    "websiteUrlInputPlaceHolder": "url",
+    "phoneInputLabel": "التليفون",
+    "phoneInputPlaceHolder": "01000000000",
+    "selectGovernorateLabel": "المحافظة",
+    "selectGovernoratePlaceHolder": "المحافظة",
+    "postalCodeInputLabel": "كود البريد",
+    "postalCodeInputPlaceHolder": "0000",
+    "selectCityLabel": "المدينة",
+    "selectCityPlaceHolder": "المدينة",
+    "addressInputLabel": "العنوان",
+    "addressInputPlaceHolder": "العنوان",
+    "photoFileInputLabel": "صورة",
+    "logoFileInputLabel": "لوجو صفحة الفيس بوك (اختياري بامكانك رفع لوجو الصفحة الخاصة بك لتظهر على بولصة الشحن)",
+    "facebookPageInputLabel": "بامكانك اضافة اسم او رابط صفحة الفيس بوك لتظهر على بولصة الشحن",
+    "facebookPageInputPlaceHolder": "url",
+    "saveButton": "حفظ",
+    "changePasswordButton": "تغير كلمة المرور"
   }
 }

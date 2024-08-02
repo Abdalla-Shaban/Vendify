@@ -958,3 +958,10 @@ export const Orders = [
     quantity: "3",
   },
 ];
+
+export const SitesPromote = [
+  { key: "facebook", label: "Facebook" },
+  { key: "website", label: "Website" },
+  { key: "twitter", label: "Twitter" },
+  { key: "instgram", label: "Instgram" },
+];

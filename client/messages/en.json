@@ -12,7 +12,8 @@
     "orders": "Orders",
     "reports": "Reports",
     "convertCommission": "Request Convert Commission",
-    "payments": "Payments"
+    "payments": "Payments",
+    "profile": "Profile"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -231,5 +232,36 @@
     "LE": "LE",
     "commissionsPayable": "Commission Payable",
     "commissionsPayableTitle": "Commission"
+  },
+  "ProfilePage": {
+    "selectTitleLabel": "Tilte",
+    "selectTitlePlaceHolder": "Mr",
+    "firstNameInputLabel": "First Name",
+    "firstNameInputPlaceHolder": "First Name",
+    "lastNameInputLabel": "Last Name",
+    "lastNameInputPlaceHolder": "Last Name",
+    "emailInputLabel": "Email",
+    "emailInputPlaceHolder": "Email",
+    "dateOfBirthLabel": "Date of Birth",
+    "selectSitesPromoteLabel": "How will you promote Vendify products ?",
+    "selectSitesPromotePlaceHolder": "facebook",
+    "websiteUrlInputLabel": "Website URL",
+    "websiteUrlInputPlaceHolder": "url",
+    "phoneInputLabel": "Phone",
+    "phoneInputPlaceHolder": "0100000000",
+    "selectGovernorateLabel": "Governorate",
+    "selectGovernoratePlaceHolder": "Governorate",
+    "postalCodeInputLabel": "Postal Code",
+    "postalCodeInputPlaceHolder": "0000",
+    "selectCityLabel": "City",
+    "selectCityPlaceHolder": "City",
+    "addressInputLabel": "Address",
+    "addressInputPlaceHolder": "Address",
+    "photoFileInputLabel": "Photo",
+    "logoFileInputLabel": "Facebook page logo (optionally, you can upload your page logo to appear on the policy)",
+    "facebookPageInputLabel": "You can add a name or facebook page link to appear on the policy",
+    "facebookPageInputPlaceHolder": "url",
+    "saveButton": "Save",
+    "changePasswordButton": "Change Password"
   }
 }
