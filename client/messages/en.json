@@ -14,7 +14,8 @@
     "convertCommission": "Request Convert Commission",
     "payments": "Payments",
     "profile": "Profile",
-    "favourites": "Favourites"
+    "favourites": "Favourites",
+    "moderator": "Moderator"
   },
   "Navbar": {
     "lang": "Arabic",
@@ -268,5 +269,11 @@
   "FavouritesPage": {
     "title": "Favourites",
     "emptyContent": "Not Found Favourites Data"
+  },
+  "ModeratorPage": {
+    "title": "Add Moderator Email",
+    "emailInputLabel": "Email",
+    "emailInputPlaceHolder": "example@gmail.com",
+    "addButton": "Add Moderator"
   }
 }

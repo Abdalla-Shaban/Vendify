@@ -14,7 +14,8 @@
     "convertCommission": "طلب تحويل عمولة",
     "payments": "الحسابات",
     "profile": "الصفحة الشخصية",
-    "favourites": "المفضلة"
+    "favourites": "المفضلة",
+    "moderator": "مودريتور"
   },
   "Navbar": {
     "lang": "اللغة الانجليزية",
@@ -268,5 +269,11 @@
   "FavouritesPage": {
     "title": "المفضلة",
     "emptyContent": "لا يوجد بيانات لعرضها"
+  },
+  "ModeratorPage": {
+    "title": "أضف البريد الإلكتروني للمودريتور",
+    "emailInputLabel": "البريد الإلكتروني",
+    "emailInputPlaceHolder": "example@gmail.com",
+    "addButton": "اضافة مودريتور"
   }
 }
