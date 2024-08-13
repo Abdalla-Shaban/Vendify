@@ -866,11 +866,6 @@ export const SidebarLinks = [
     Icon: BringToFront,
   },
   {
-    title: "insights",
-    href: "/affiliate/insights",
-    Icon: AreaChart,
-  },
-  {
     title: "reports",
     href: "/affiliate/reports",
     Icon: Scroll,
