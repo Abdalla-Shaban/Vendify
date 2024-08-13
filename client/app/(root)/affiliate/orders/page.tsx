@@ -1,4 +1,4 @@
-import Orders from "@/components/sections/Orders";
+import OrdersContainer from "@/components/sections/Orders";
 import { Locale } from "@/config";
 import { getTranslations } from "next-intl/server";
 
@@ -12,7 +12,7 @@ export async function generateMetadata(Locale: Locale) {
 const OrdersPage = () => {
   return (
     <div className="flex-1 flex flex-col gap-5 my-8 w-[230px] overflow-x-auto">
-      <Orders />
+      <OrdersContainer />
     </div>
   );
 };

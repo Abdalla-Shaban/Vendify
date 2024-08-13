@@ -12,6 +12,7 @@ import { useTranslations } from "next-intl";
 
 interface IOrders {
   id?: number | string;
+  imgUrl: string;
   productName: string;
   productAuthor: string;
   fullName: string;
@@ -23,11 +24,13 @@ interface IOrders {
   moderatorName?: string;
   notes?: string;
   date: string;
-  totalPrice: string;
+  price: string;
   status: string;
   transferDateForShipping: string;
   confirmationDate: string;
-  reason?: string;
+  reason: string;
+  commission: number;
+  quantity: string;
 }
 
 const statusColorMap: Record<string, ChipProps["color"]> = {
@@ -68,9 +71,8 @@ const OrdersList = ({ orders }: { orders: IOrders[] }) => {
               city,
               address,
               notes,
-
               date,
-              totalPrice,
+              price,
               transferDateForShipping,
               reason,
               confirmationDate,
@@ -117,9 +119,7 @@ const OrdersList = ({ orders }: { orders: IOrders[] }) => {
               </TableCell>
               <TableCell>
                 <div className="flex items-center justify-center">
-                  <p className="text-bold text-small capitalize">
-                    {totalPrice}
-                  </p>
+                  <p className="text-bold text-small capitalize">{price}</p>
                 </div>
               </TableCell>
               <TableCell>

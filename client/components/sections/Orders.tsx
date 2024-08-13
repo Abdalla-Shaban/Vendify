@@ -1,5 +1,5 @@
 "use client";
-import { OrdersListStatus } from "@/constants";
+import { Orders, OrdersListStatus } from "@/constants";
 import {
   Button,
   DatePicker,
@@ -13,54 +13,14 @@ import Link from "next/link";
 import { ChangeEvent, useRef, useState } from "react";
 import OrdersList from "../OrdersList";
 
-let orders = [
-  {
-    id: 1,
-    productName: "T-shirt",
-    productAuthor: "Zara",
-    fullName: "Abdullah Shaban",
-    phoneNumber: "01121795091",
-    extraPhoneNumber: "01143010140",
-    governorate: "Giza",
-    city: "hawmdia",
-    address: "abu lasheen",
-    moderatorName: "Bouda",
-    notes: "مستعجل",
-    date: "16/8/2024",
-    totalPrice: "600",
-    status: "success",
-    transferDateForShipping: "7/31/2024",
-    confirmationDate: "24/8/2024",
-    reason: "",
-  },
-  {
-    id: 2,
-    productName: "Short",
-    productAuthor: "Defacto",
-    fullName: "Ebrahim Farghaly",
-    phoneNumber: "034765181534",
-    extraPhoneNumber: "034765181534",
-    governorate: "Cairo",
-    city: "Helwan",
-    address: "metro",
-    moderatorName: "Amany",
-    notes: "",
-    date: "7/31/2024",
-    totalPrice: "600",
-    status: "pending",
-    transferDateForShipping: "7/31/2024",
-    confirmationDate: "08/03/2024",
-    reason: "",
-  },
-];
 type TSearchedData = {
   startDate: string;
   endDate: string;
   status: string;
 };
-const Orders = () => {
+const OrdersContainer = () => {
   const t = useTranslations("OrdersPage");
-  const [filteredData, setFilteredData] = useState<typeof orders>(orders);
+  const [filteredData, setFilteredData] = useState<typeof Orders>(Orders);
   const [serachQuery, setSearchQuery] = useState<string>("");
   const [searchedData, setSearchedData] = useState<TSearchedData>({
     startDate: "",
@@ -69,13 +29,13 @@ const Orders = () => {
   });
   const startDateRef = useRef(null);
   const handleViewAll = () => {
-    setFilteredData(orders);
+    setFilteredData(Orders);
     setSearchQuery("");
   };
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setSearchQuery(query);
-    const filteredItems = orders.filter(
+    const filteredItems = Orders.filter(
       ({
         fullName,
         phoneNumber,
@@ -101,7 +61,7 @@ const Orders = () => {
             isClearable
             onClear={() => {
               setSearchQuery("");
-              setFilteredData(orders);
+              setFilteredData(Orders);
             }}
             className="flex-1"
             size="lg"
@@ -132,7 +92,7 @@ const Orders = () => {
                 ...searchedData,
                 startDate: formatDate,
               });
-              const filteredItems = orders.filter(({ date }) =>
+              const filteredItems = Orders.filter(({ date }) =>
                 date.toLowerCase().includes(formatDate)
               );
               setFilteredData(filteredItems);
@@ -150,7 +110,7 @@ const Orders = () => {
                 ...searchedData,
                 endDate: formatDate,
               });
-              const filteredItems = orders.filter(({ confirmationDate }) =>
+              const filteredItems = Orders.filter(({ confirmationDate }) =>
                 confirmationDate.toLowerCase().includes(formatDate)
               );
 
@@ -159,7 +119,7 @@ const Orders = () => {
           />
           <Select
             onChange={(e) => {
-              const filteredItems = orders.filter(({ status }) =>
+              const filteredItems = Orders.filter(({ status }) =>
                 status.toLowerCase().includes(`${e.target.value}`)
               );
               setFilteredData(filteredItems);
@@ -177,7 +137,7 @@ const Orders = () => {
         </div>
         <Link
           className="max-w-fit bg-green-950 py-2 px-4 rounded-xl text-16 text-white"
-          href="/affiliate/orders/create"
+          href="/create/orders"
         >
           {t("addOrderLink")}
         </Link>
@@ -187,4 +147,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+export default OrdersContainer;
