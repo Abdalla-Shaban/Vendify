@@ -77,7 +77,7 @@ const Statistics = ({ showLink }: TStatistics) => {
       {showLink && (
         <Link
           className="text-white px-3 py-2 rounded-full text-14 bg-green-950 mx-auto"
-          href="/dashboard/affilites"
+          href="/affiliate/dashboard"
         >
           {t("allStatistics")}
         </Link>
