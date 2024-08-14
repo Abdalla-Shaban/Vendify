@@ -1,8 +1,8 @@
 import { Locale } from "@/config";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
-export async function generateMetadata(Locale: Locale) {
-  const t = await getTranslations({ Locale, namespace: "Metadata" });
+export async function generateMetadata({ params }: { params: Locale }) {
+  const t = await getTranslations({ params, namespace: "Metadata" });
   return {
     title: t("tutorial"),
   };

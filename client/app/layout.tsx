@@ -7,8 +7,8 @@ import "./globals.css";
 import { Providers } from "@/Providers";
 const cairo = Cairo({ subsets: ["latin"] });
 
-export async function generateMetadata(Locale: Locale) {
-  const t = await getTranslations({ Locale, namespace: "Metadata" });
+export async function generateMetadata({ params }: { params: Locale }) {
+  const t = await getTranslations({ params, namespace: "Metadata" });
   return {
     title: {
       default: `Vendify | ${t("home")}`,
